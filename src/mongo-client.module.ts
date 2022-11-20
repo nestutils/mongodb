@@ -1,4 +1,4 @@
-import { Module, DynamicModule, Provider } from '@nestjs/common'
+import { Module, DynamicModule, Provider, Global } from '@nestjs/common'
 import { Logger } from '@nestutils/logger'
 import { MongoClient, MongoClientOptions } from 'mongodb'
 import {
@@ -13,6 +13,7 @@ import { MongoClientModuleAsyncOptions, MongoClientModuleOptions } from './types
  * Module for the MongoDB driver
  */
 @Module({})
+@Global()
 export class MongoClientModule {
     private static readonly logger = new Logger({
         context: MongoClientModule.name
