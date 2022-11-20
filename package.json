@@ -1,6 +1,6 @@
 {
     "name": "@nestutils/mongodb",
-    "version": "0.0.1-rc.2",
+    "version": "0.0.1-rc.3",
     "description": "NestJS module for connecting with MongoDB default driver",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
