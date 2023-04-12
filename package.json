@@ -1,6 +1,6 @@
 {
     "name": "@nestutils/mongodb",
-    "version": "0.0.1-rc.9",
+    "version": "0.0.1-rc.10",
     "private": false,
     "license": "MIT",
     "readme": "./README.md",
