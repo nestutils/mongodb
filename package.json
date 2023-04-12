@@ -1,11 +1,14 @@
 {
     "name": "@nestutils/mongodb",
-    "version": "0.0.1-rc.6",
+    "version": "0.0.1-rc.9",
+    "private": false,
+    "license": "MIT",
+    "readme": "./README.md",
     "description": "NestJS module for connecting with MongoDB default driver",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
-        "build": "rimraf dist && tsc",
+        "build": "rimraf lib && tsc",
         "format": "prettier **/**/*.ts --ignore-path ./.prettierignore --write && git status"
     },
     "keywords": [
